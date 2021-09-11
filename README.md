@@ -7,12 +7,12 @@ Inicialmente, possuímos uma tabela com Datas de Pedido, no qual o objetivo é r
 
 ![Screenshot](imgs/Screenshot_1.png)
 
-Tendo com base essas datas, o primeiro passo é criar uma tabela dCalendario e verificar os dias úteis e não úteis. Para este exemplo eu não me preocupei com os feriados, mas, caso você queira implementar algum cálculo considerando além de sábado e domingo os feriados, confira a minha postagem com a solucutação das diferenças de datas considerando também só dias úteis clicando aqui: https://github.com/AfonsoFeliciano/PBI-Diferenca-Dias-Uteis <br/>
+Tendo com base essas datas, o primeiro passo é criar uma tabela dCalendario e verificar os dias úteis e não úteis. Para este exemplo eu não me preocupei com os feriados, mas, caso você queira implementar algum cálculo considerando além de sábado e domingo os feriados, confira a minha postagem com a solucutação das diferenças de datas considerando também só dias úteis clicando <a href="https://github.com/AfonsoFeliciano/PBI-Diferenca-Dias-Uteis" target="_blank">aqui</a>.  <br/>
 
 
 ![Screenshot](imgs/Screenshot_2.png)
 
-Então de maneira mais simples, para saber se o dia é útil ou não, basta verificar o seu número utilizando a função <a href="https://docs.microsoft.com/pt-br/dax/weekday-function-dax">WEEKDAY</a> . Essa função retorna o número do dia da semana de uma data. E se ele for igual 1 ou 7, significa que ele não é um dia útil, do contrário ele é um dia útil. <br/>
+Então de maneira mais simples, para saber se o dia é útil ou não, basta verificar o seu número utilizando a função <a href="https://docs.microsoft.com/pt-br/dax/weekday-function-dax" target="_blank">WEEKDAY</a> . Essa função retorna o número do dia da semana de uma data. E se ele for igual 1 ou 7, significa que ele não é um dia útil, do contrário ele é um dia útil. <br/>
 
 Após isso, vamos analisar a data 01/02/2021 e somar 5 corridos e úteis a ela. 
 
@@ -52,7 +52,7 @@ O resultado final, pode ser visto abaixo:
 ![Screenshot](imgs/Screenshot_7.png)
 
 
-Ressalto que esse foi apenas um modo, porém, ao implementar os feriados, as regras complicam mais um pouco. Desafio você a aplicar as regras com feriados, e se ficou com alguma dúvida, tem sugestões de novos conteúdos, bora bater um papo no <a href="https://www.linkedin.com/in/afonsofeliciano/">  </a> =) 
+Ressalto que esse foi apenas um modo, porém, ao implementar os feriados, as regras complicam mais um pouco. Desafio você a aplicar as regras com feriados, e se ficou com alguma dúvida, tem sugestões de novos conteúdos, bora bater um papo no <a href="https://www.linkedin.com/in/afonsofeliciano/" target="_blank">LinkedIn</a> =) 
 
 
 
